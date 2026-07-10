@@ -29,8 +29,14 @@ including `paper_plot_data.csv` and `oracle_reference_data.csv`.
 
 ## Reproducing the paper figure panels
 
-Install the package dependencies, including `simpleclust`, then from the
-repository root run
+Install the package dependencies from the repository root using
+
+```r
+install.packages("remotes")
+remotes::install_deps(dependencies = TRUE)
+```
+
+Then from the repository root run
 
 ```bash
 Rscript scripts/reproduce_paper_figures.R
