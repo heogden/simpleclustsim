@@ -1,0 +1,8 @@
+case,quantity,metric,n_cells,min,max,min_1dp,max_1dp,min_2dp,max_2dp
+3re,Next-best general-purpose RMISE / AdaStruMM RMISE,RMISE,24,1.2021086320026428,6.976685744188902,1.2,7.0,1.20,6.98
+3re,AdaStruMM RMISE / oracle RMISE,RMISE,24,1.02354783006192,1.7171665679289922,1.0,1.7,1.02,1.72
+3re,AdaStruMM CI coverage,coverage,24,0.869336,0.9581586,0.9,1.0,0.87,0.96
+3re,Narrowest general-purpose CI width / AdaStruMM CI width,ci_width,24,0.9888047750764454,2.3562932521484394,1.0,2.4,0.99,2.36
+3re,AdaStruMM CI width / oracle CI width,ci_width,24,1.0125433278125957,1.8293653947337802,1.0,1.8,1.01,1.83
+3re,Next-best general-purpose RM2W / AdaStruMM RM2W,rmw2,24,1.2001691171333209,4.080287731238081,1.2,4.1,1.20,4.08
+3re,AdaStruMM RM2W / oracle RM2W,rmw2,24,1.0006054054831766,1.9422043277420542,1.0,1.9,1.00,1.94

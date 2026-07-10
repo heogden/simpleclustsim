@@ -1,0 +1,83 @@
+case,subcase_id,metric,method,n_obs_per_cluster,n_clusters,estimate,lower,upper,reason
+sitar,2,RMISE,Local-GAM,3,50,9.494771965523213,9.433740151995455,9.555413967966006,Local-GAM suppressed for n_i < 5
+sitar,6,RMISE,Local-GAM,3,100,9.497839158708945,9.453346103396392,9.54212475389053,Local-GAM suppressed for n_i < 5
+sitar,10,RMISE,Local-GAM,3,200,9.521228742822112,9.490623902294917,9.551735522483453,Local-GAM suppressed for n_i < 5
+sitar,14,RMISE,Local-GAM,3,300,9.519720367239445,9.49064315776665,9.548709032785746,Local-GAM suppressed for n_i < 5
+sitar,18,RMISE,Local-GAM,3,400,9.521630388292223,9.500481801150297,9.542732106085335,Local-GAM suppressed for n_i < 5
+sitar,22,RMISE,Local-GAM,3,500,9.530359088453347,9.50982124620742,9.55085276689535,Local-GAM suppressed for n_i < 5
+sitar,1,RMISE,SITAR,2,50,4038.0439605646984,0,6866.980708503224,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,5,RMISE,SITAR,2,100,1418.1035213431899,0,2173.511966158417,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,9,RMISE,SITAR,2,200,267.39091537595493,0,437.4077140440225,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,13,RMISE,SITAR,2,300,22720.371323299667,0,39087.149221214626,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,17,RMISE,SITAR,2,400,618.0748978644365,0,1040.7216631559943,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,21,RMISE,SITAR,2,500,1705.2988229965651,0,2843.7175901858573,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,2,RMISE,SITAR,3,50,1338.5544320586487,0,2050.268254756269,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,6,RMISE,SITAR,3,100,355.60243041893835,0,575.3140172227965,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,10,RMISE,SITAR,3,200,6109.644141269778,0,10196.638508539454,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,14,RMISE,SITAR,3,300,1261.4676213912503,0,1879.8631133786298,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,18,RMISE,SITAR,3,400,514.4947968165125,219.0017264070669,693.8645658435463,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,22,RMISE,SITAR,3,500,1325.2404206691535,0,2205.0805784239988,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,2,coverage,Local-GAM,3,50,0.9443656565656565,0.9391155453257124,0.9496157678056006,Local-GAM CI results suppressed
+sitar,6,coverage,Local-GAM,3,100,0.9414,0.9379385394952192,0.9448614605047808,Local-GAM CI results suppressed
+sitar,10,coverage,Local-GAM,3,200,0.9426535353535354,0.9395415106906747,0.945765560016396,Local-GAM CI results suppressed
+sitar,14,coverage,Local-GAM,3,300,0.9404326388888888,0.9378420517354356,0.9430232260423421,Local-GAM CI results suppressed
+sitar,18,coverage,Local-GAM,3,400,0.9405115979381443,0.9384868750625801,0.9425363208137085,Local-GAM CI results suppressed
+sitar,3,coverage,Local-GAM,5,50,0.63433,0.6222781415338834,0.6463818584661165,Local-GAM CI results suppressed
+sitar,7,coverage,Local-GAM,5,100,0.637584,0.630199959243087,0.644968040756913,Local-GAM CI results suppressed
+sitar,11,coverage,Local-GAM,5,200,0.640159,0.6349396416022713,0.6453783583977287,Local-GAM CI results suppressed
+sitar,15,coverage,Local-GAM,5,300,0.6395,0.63492556064376,0.6440744393562399,Local-GAM CI results suppressed
+sitar,19,coverage,Local-GAM,5,400,0.6394005,0.6361788763771338,0.6426221236228663,Local-GAM CI results suppressed
+sitar,23,coverage,Local-GAM,5,500,0.6386464,0.6355503672501818,0.6417424327498181,Local-GAM CI results suppressed
+sitar,4,coverage,Local-GAM,10,50,0.27742,0.2657350974508829,0.2891049025491171,Local-GAM CI results suppressed
+sitar,8,coverage,Local-GAM,10,100,0.271346,0.2644496087365707,0.27824239126342926,Local-GAM CI results suppressed
+sitar,12,coverage,Local-GAM,10,200,0.271528,0.2652530545857321,0.27780294541426787,Local-GAM CI results suppressed
+sitar,16,coverage,Local-GAM,10,300,0.2721573333333333,0.26752073347487554,0.2767939331917911,Local-GAM CI results suppressed
+sitar,20,coverage,Local-GAM,10,400,0.2766025,0.27280985378994493,0.280395146210055,Local-GAM CI results suppressed
+sitar,24,coverage,Local-GAM,10,500,0.275167,0.27169624336655396,0.27863775663344603,Local-GAM CI results suppressed
+sitar,2,ci_width,Local-GAM,3,50,9471965.782124342,8254871.868276637,10689059.695972048,Local-GAM CI results suppressed
+sitar,6,ci_width,Local-GAM,3,100,8865404.027371345,8126949.463469213,9603858.591273477,Local-GAM CI results suppressed
+sitar,10,ci_width,Local-GAM,3,200,9077550.549810233,8479856.714945655,9675244.38467481,Local-GAM CI results suppressed
+sitar,14,ci_width,Local-GAM,3,300,9280936.845181236,8800119.920993438,9761753.769369034,Local-GAM CI results suppressed
+sitar,18,ci_width,Local-GAM,3,400,9448681.938919628,9058054.2052632235,9839309.672576033,Local-GAM CI results suppressed
+sitar,3,ci_width,Local-GAM,5,50,5.907069922989244,5.7829001709501755,6.031239675028313,Local-GAM CI results suppressed
+sitar,7,ci_width,Local-GAM,5,100,5.938731472464657,5.855599428164114,6.021863516765201,Local-GAM CI results suppressed
+sitar,11,ci_width,Local-GAM,5,200,5.979703011397088,5.919292145583331,6.040113877210846,Local-GAM CI results suppressed
+sitar,15,ci_width,Local-GAM,5,300,5.9800319338801655,5.929278553910145,6.030785313850186,Local-GAM CI results suppressed
+sitar,19,ci_width,Local-GAM,5,400,5.977348174102445,5.942655976745642,6.012040371459247,Local-GAM CI results suppressed
+sitar,23,ci_width,Local-GAM,5,500,5.954182467746384,5.921398236675707,5.986966698817061,Local-GAM CI results suppressed
+sitar,4,ci_width,Local-GAM,10,50,0.4312850487052484,0.41209533994503583,0.450474757465461,Local-GAM CI results suppressed
+sitar,8,ci_width,Local-GAM,10,100,0.41831819187239044,0.40673003164494786,0.429906352099833,Local-GAM CI results suppressed
+sitar,12,ci_width,Local-GAM,10,200,0.41939466232951844,0.4091035798336663,0.4296857448253706,Local-GAM CI results suppressed
+sitar,16,ci_width,Local-GAM,10,300,0.419093470391116,0.411226766085606,0.426960174696626,Local-GAM CI results suppressed
+sitar,20,ci_width,Local-GAM,10,400,0.42553495271067704,0.4189405869777301,0.43212931844362396,Local-GAM CI results suppressed
+sitar,24,ci_width,Local-GAM,10,500,0.4228933115297746,0.4169662693320292,0.42882035372752003,Local-GAM CI results suppressed
+sitar,2,rmw2,Local-GAM,3,50,2.770356851090925,2.7250346082013577,2.814949475368559,Local-GAM suppressed for n_i < 5
+sitar,6,rmw2,Local-GAM,3,100,2.616704501071196,2.589094816669461,2.644025892866377,Local-GAM suppressed for n_i < 5
+sitar,10,rmw2,Local-GAM,3,200,2.5698201090370714,2.5536130670726225,2.5859255769063747,Local-GAM suppressed for n_i < 5
+sitar,14,rmw2,Local-GAM,3,300,2.538633627864258,2.527584746458867,2.5496346292194403,Local-GAM suppressed for n_i < 5
+sitar,18,rmw2,Local-GAM,3,400,2.5305746365897814,2.5228179153494117,2.5383076544609513,Local-GAM suppressed for n_i < 5
+sitar,22,rmw2,Local-GAM,3,500,2.5235468918962662,2.514822560715067,2.5322411653152477,Local-GAM suppressed for n_i < 5
+sitar,1,rmw2,SITAR,2,50,1270.605997698341,0,2160.785237312944,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,5,rmw2,SITAR,2,100,455.23294485852995,0,697.6473655206265,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,9,rmw2,SITAR,2,200,83.7691244259248,0,137.05129196373036,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,13,rmw2,SITAR,2,300,7149.258527192225,0,12299.280095159642,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,17,rmw2,SITAR,2,400,194.3398434342446,0,327.375803255682,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,21,rmw2,SITAR,2,500,536.0888328712426,0,894.0230794948478,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,2,rmw2,SITAR,3,50,427.2718958257278,0,654.3584247728202,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,6,rmw2,SITAR,3,100,111.62236930116717,0,180.62275339755772,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,10,rmw2,SITAR,3,200,1877.827130960261,0,3199.4097595691687,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,14,rmw2,SITAR,3,300,396.7161018805249,0,591.250130395954,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,18,rmw2,SITAR,3,400,161.51344807503455,68.53991643752197,217.8886588900654,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,22,rmw2,SITAR,3,500,416.68457742769294,0,693.4438638484135,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,1,time,SITAR,2,50,0.09112266666666657,0.07807106060165062,0.10417427273168253,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,5,time,SITAR,2,100,0.20805250000000128,0.17134045812716564,0.24476454187283692,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,9,time,SITAR,2,200,0.38093400000000033,0.33323206568167923,0.4286359343183214,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,13,time,SITAR,2,300,0.4990483333333329,0.42625708099028004,0.5718395856763858,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,17,time,SITAR,2,400,0.7118941666666666,0.6173914653139261,0.8063968680194071,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,21,time,SITAR,2,500,0.8489816666666666,0.7183873734037771,0.9795759599295562,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,2,time,SITAR,3,50,0.1460284999999999,0.11305241778533275,0.17900458221466703,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,6,time,SITAR,3,100,0.3607320000000006,0.2822419930962904,0.4392220069037108,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,10,time,SITAR,3,200,0.9297459999999994,0.7560625923416021,1.1034294076583968,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,14,time,SITAR,3,300,1.5991083333333336,1.3033448000821992,1.894871866584468,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,18,time,SITAR,3,400,2.2735475,1.8739647720626782,2.6731302279373215,SITAR suppressed for n_i < 5 because fitting was unreliable
+sitar,22,time,SITAR,3,500,3.667669,3.1293400376446767,4.205997962355323,SITAR suppressed for n_i < 5 because fitting was unreliable

@@ -1,0 +1,9 @@
+Case: 3re
+
+RMISE improvement over next-best general-purpose method: 1.2--7.0 times.
+AdaStruMM RMISE / individual oracle RMISE: 1.0--1.7.
+AdaStruMM CI coverage range: 0.87--0.96.
+CI width improvement over next-narrowest general-purpose method: 1.0--2.4 times.
+AdaStruMM CI width / oracle CI width: 1.0--1.8.
+RM2W improvement over next-best general-purpose method: 1.2--4.1 times.
+AdaStruMM RM2W / population oracle RM2W: 1.0--1.9.

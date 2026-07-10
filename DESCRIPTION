@@ -1,0 +1,46 @@
+Package: simpleclustsim
+Title: Simulation Studies for Adaptively-Structured Mixed Models
+Version: 0.1.0
+Authors@R: 
+    person("Helen", "Ogden", , "heogden12@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7204-9776"))
+Description: Contains code and processed simulation summaries used for the
+    simulation studies in the paper "Adaptively-Structured Mixed Models for
+    Simple Clustered Data". The repository is intended as a research-code
+    archive accompanying the paper, rather than as a general-purpose simulation
+    package.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    cli,
+    dplyr,
+    expm,
+    ggplot2,
+    glue,
+    grDevices,
+    grid,
+    knapsack,
+    lifecycle,
+    mvtnorm,
+    nlme,
+    purrr,
+    readr,
+    rlang,
+    simpleclust,
+    sitar,
+    splines,
+    stats,
+    stringr,
+    tibble,
+    tidyr,
+    withr
+Suggests:
+    devtools,
+    here,
+    tikzDevice
+Remotes:
+    heogden/simpleclust
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 3.5)

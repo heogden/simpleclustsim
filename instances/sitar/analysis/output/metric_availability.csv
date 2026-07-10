@@ -1,0 +1,811 @@
+case,subcase_id,n_clusters,n_obs_per_cluster,method,method_label,metric,n_expected,n_available,prop_metric_missing,show_metric,n_oom,n_timeout,n_unknown_missing,n_sim_fail,n_fit_fail,n_pred_fail,n_gp_fail,n_ci_fail,prop_oom,prop_timeout,prop_unknown_missing,prop_sim_fail,prop_fit_fail,prop_pred_fail,prop_gp_fail,prop_ci_fail
+sitar,1,50,2,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,HGAM-GS,HGAM-GS,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,1,50,2,HGAM-GS,HGAM-GS,ci_width,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,1,50,2,HGAM-GS,HGAM-GS,coverage,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,1,50,2,HGAM-GS,HGAM-GS,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,1,50,2,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,1,50,2,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,1,50,2,SITAR,SITAR,RMISE,100,27,0.73,TRUE,0,0,0,0,73,0,0,27,0,0,0,0,0.73,0,0,0.27
+sitar,1,50,2,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,73,0,0,27,0,0,0,0,0.73,0,0,0.27
+sitar,1,50,2,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,73,0,0,27,0,0,0,0,0.73,0,0,0.27
+sitar,1,50,2,SITAR,SITAR,rmw2,100,27,0.73,TRUE,0,0,0,0,73,0,0,27,0,0,0,0,0.73,0,0,0.27
+sitar,1,50,2,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,73,0,0,27,0,0,0,0,0.73,0,0,0.27
+sitar,5,100,2,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,5,100,2,SITAR,SITAR,RMISE,100,25,0.75,TRUE,0,0,0,0,75,0,0,25,0,0,0,0,0.75,0,0,0.25
+sitar,5,100,2,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,75,0,0,25,0,0,0,0,0.75,0,0,0.25
+sitar,5,100,2,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,75,0,0,25,0,0,0,0,0.75,0,0,0.25
+sitar,5,100,2,SITAR,SITAR,rmw2,100,24,0.76,TRUE,0,0,0,0,75,0,0,25,0,0,0,0,0.75,0,0,0.25
+sitar,5,100,2,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,75,0,0,25,0,0,0,0,0.75,0,0,0.25
+sitar,9,200,2,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,9,200,2,SITAR,SITAR,RMISE,100,23,0.77,TRUE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,9,200,2,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,9,200,2,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,9,200,2,SITAR,SITAR,rmw2,100,23,0.77,TRUE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,9,200,2,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,13,300,2,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,13,300,2,SITAR,SITAR,RMISE,100,19,0.81,TRUE,0,0,0,0,81,0,0,19,0,0,0,0,0.81,0,0,0.19
+sitar,13,300,2,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,81,0,0,19,0,0,0,0,0.81,0,0,0.19
+sitar,13,300,2,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,81,0,0,19,0,0,0,0,0.81,0,0,0.19
+sitar,13,300,2,SITAR,SITAR,rmw2,100,19,0.81,TRUE,0,0,0,0,81,0,0,19,0,0,0,0,0.81,0,0,0.19
+sitar,13,300,2,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,81,0,0,19,0,0,0,0,0.81,0,0,0.19
+sitar,17,400,2,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,17,400,2,SITAR,SITAR,RMISE,100,23,0.77,TRUE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,17,400,2,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,17,400,2,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,17,400,2,SITAR,SITAR,rmw2,100,23,0.77,TRUE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,17,400,2,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,77,0,0,23,0,0,0,0,0.77,0,0,0.23
+sitar,21,500,2,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,21,500,2,SITAR,SITAR,RMISE,100,16,0.84,TRUE,0,0,0,0,84,0,0,16,0,0,0,0,0.84,0,0,0.16
+sitar,21,500,2,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,84,0,0,16,0,0,0,0,0.84,0,0,0.16
+sitar,21,500,2,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,84,0,0,16,0,0,0,0,0.84,0,0,0.16
+sitar,21,500,2,SITAR,SITAR,rmw2,100,16,0.84,TRUE,0,0,0,0,84,0,0,16,0,0,0,0,0.84,0,0,0.16
+sitar,21,500,2,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,84,0,0,16,0,0,0,0,0.84,0,0,0.16
+sitar,2,50,3,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,Local-GAM,Local-GAM,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,2,50,3,Local-GAM,Local-GAM,ci_width,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,2,50,3,Local-GAM,Local-GAM,coverage,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,2,50,3,Local-GAM,Local-GAM,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,2,50,3,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,2,50,3,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,2,50,3,SITAR,SITAR,RMISE,100,35,0.65,TRUE,0,0,0,0,65,0,0,35,0,0,0,0,0.65,0,0,0.35
+sitar,2,50,3,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,65,0,0,35,0,0,0,0,0.65,0,0,0.35
+sitar,2,50,3,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,65,0,0,35,0,0,0,0,0.65,0,0,0.35
+sitar,2,50,3,SITAR,SITAR,rmw2,100,34,0.6599999999999999,TRUE,0,0,0,0,65,0,0,35,0,0,0,0,0.65,0,0,0.35
+sitar,2,50,3,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,65,0,0,35,0,0,0,0,0.65,0,0,0.35
+sitar,6,100,3,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,Local-GAM,Local-GAM,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,6,100,3,Local-GAM,Local-GAM,ci_width,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,6,100,3,Local-GAM,Local-GAM,coverage,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,6,100,3,Local-GAM,Local-GAM,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,6,100,3,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,6,100,3,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,6,100,3,SITAR,SITAR,RMISE,100,43,0.5700000000000001,TRUE,0,0,0,0,57,0,0,43,0,0,0,0,0.57,0,0,0.43
+sitar,6,100,3,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,57,0,0,43,0,0,0,0,0.57,0,0,0.43
+sitar,6,100,3,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,57,0,0,43,0,0,0,0,0.57,0,0,0.43
+sitar,6,100,3,SITAR,SITAR,rmw2,100,43,0.5700000000000001,TRUE,0,0,0,0,57,0,0,43,0,0,0,0,0.57,0,0,0.43
+sitar,6,100,3,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,57,0,0,43,0,0,0,0,0.57,0,0,0.43
+sitar,10,200,3,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,Local-GAM,Local-GAM,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,10,200,3,Local-GAM,Local-GAM,ci_width,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,10,200,3,Local-GAM,Local-GAM,coverage,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,10,200,3,Local-GAM,Local-GAM,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,10,200,3,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,1,0,0,0,0,0,0,0,0.01,0,0,0
+sitar,10,200,3,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,10,200,3,SITAR,SITAR,RMISE,100,56,0.43999999999999995,TRUE,0,0,0,0,44,0,0,56,0,0,0,0,0.44,0,0,0.56
+sitar,10,200,3,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,44,0,0,56,0,0,0,0,0.44,0,0,0.56
+sitar,10,200,3,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,44,0,0,56,0,0,0,0,0.44,0,0,0.56
+sitar,10,200,3,SITAR,SITAR,rmw2,100,55,0.44999999999999996,TRUE,0,0,0,0,44,0,0,56,0,0,0,0,0.44,0,0,0.56
+sitar,10,200,3,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,44,0,0,56,0,0,0,0,0.44,0,0,0.56
+sitar,14,300,3,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,Local-GAM,Local-GAM,RMISE,100,96,0.040000000000000036,TRUE,0,0,0,0,4,0,0,0,0,0,0,0,0.04,0,0,0
+sitar,14,300,3,Local-GAM,Local-GAM,ci_width,100,96,0.040000000000000036,TRUE,0,0,0,0,4,0,0,0,0,0,0,0,0.04,0,0,0
+sitar,14,300,3,Local-GAM,Local-GAM,coverage,100,96,0.040000000000000036,TRUE,0,0,0,0,4,0,0,0,0,0,0,0,0.04,0,0,0
+sitar,14,300,3,Local-GAM,Local-GAM,rmw2,100,96,0.040000000000000036,TRUE,0,0,0,0,4,0,0,0,0,0,0,0,0.04,0,0,0
+sitar,14,300,3,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,4,0,0,0,0,0,0,0,0.04,0,0,0
+sitar,14,300,3,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,14,300,3,SITAR,SITAR,RMISE,100,50,0.5,TRUE,0,0,0,0,50,0,0,50,0,0,0,0,0.5,0,0,0.5
+sitar,14,300,3,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,50,0,0,50,0,0,0,0,0.5,0,0,0.5
+sitar,14,300,3,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,50,0,0,50,0,0,0,0,0.5,0,0,0.5
+sitar,14,300,3,SITAR,SITAR,rmw2,100,50,0.5,TRUE,0,0,0,0,50,0,0,50,0,0,0,0,0.5,0,0,0.5
+sitar,14,300,3,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,50,0,0,50,0,0,0,0,0.5,0,0,0.5
+sitar,18,400,3,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,Local-GAM,Local-GAM,RMISE,100,97,0.030000000000000027,TRUE,0,0,0,0,3,0,0,0,0,0,0,0,0.03,0,0,0
+sitar,18,400,3,Local-GAM,Local-GAM,ci_width,100,97,0.030000000000000027,TRUE,0,0,0,0,3,0,0,0,0,0,0,0,0.03,0,0,0
+sitar,18,400,3,Local-GAM,Local-GAM,coverage,100,97,0.030000000000000027,TRUE,0,0,0,0,3,0,0,0,0,0,0,0,0.03,0,0,0
+sitar,18,400,3,Local-GAM,Local-GAM,rmw2,100,97,0.030000000000000027,TRUE,0,0,0,0,3,0,0,0,0,0,0,0,0.03,0,0,0
+sitar,18,400,3,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,3,0,0,0,0,0,0,0,0.03,0,0,0
+sitar,18,400,3,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,18,400,3,SITAR,SITAR,RMISE,100,58,0.42000000000000004,TRUE,0,0,0,0,42,0,0,58,0,0,0,0,0.42,0,0,0.58
+sitar,18,400,3,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,42,0,0,58,0,0,0,0,0.42,0,0,0.58
+sitar,18,400,3,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,42,0,0,58,0,0,0,0,0.42,0,0,0.58
+sitar,18,400,3,SITAR,SITAR,rmw2,100,58,0.42000000000000004,TRUE,0,0,0,0,42,0,0,58,0,0,0,0,0.42,0,0,0.58
+sitar,18,400,3,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,42,0,0,58,0,0,0,0,0.42,0,0,0.58
+sitar,22,500,3,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,Local-GAM,Local-GAM,RMISE,100,92,0.07999999999999996,TRUE,0,0,0,0,8,0,0,0,0,0,0,0,0.08,0,0,0
+sitar,22,500,3,Local-GAM,Local-GAM,ci_width,100,92,0.07999999999999996,FALSE,0,0,0,0,8,0,0,0,0,0,0,0,0.08,0,0,0
+sitar,22,500,3,Local-GAM,Local-GAM,coverage,100,92,0.07999999999999996,FALSE,0,0,0,0,8,0,0,0,0,0,0,0,0.08,0,0,0
+sitar,22,500,3,Local-GAM,Local-GAM,rmw2,100,92,0.07999999999999996,TRUE,0,0,0,0,8,0,0,0,0,0,0,0,0.08,0,0,0
+sitar,22,500,3,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,8,0,0,0,0,0,0,0,0.08,0,0,0
+sitar,22,500,3,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,22,500,3,SITAR,SITAR,RMISE,100,68,0.31999999999999995,TRUE,0,0,0,0,32,0,0,68,0,0,0,0,0.32,0,0,0.68
+sitar,22,500,3,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,32,0,0,68,0,0,0,0,0.32,0,0,0.68
+sitar,22,500,3,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,32,0,0,68,0,0,0,0,0.32,0,0,0.68
+sitar,22,500,3,SITAR,SITAR,rmw2,100,68,0.31999999999999995,TRUE,0,0,0,0,32,0,0,68,0,0,0,0,0.32,0,0,0.68
+sitar,22,500,3,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,32,0,0,68,0,0,0,0,0.32,0,0,0.68
+sitar,3,50,5,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,3,50,5,SITAR,SITAR,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,3,50,5,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,3,50,5,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,3,50,5,SITAR,SITAR,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,3,50,5,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,7,100,5,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,7,100,5,SITAR,SITAR,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,7,100,5,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,7,100,5,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,7,100,5,SITAR,SITAR,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,7,100,5,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,11,200,5,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,11,200,5,SITAR,SITAR,RMISE,100,97,0.030000000000000027,TRUE,0,0,0,0,3,0,0,97,0,0,0,0,0.03,0,0,0.97
+sitar,11,200,5,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,3,0,0,97,0,0,0,0,0.03,0,0,0.97
+sitar,11,200,5,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,3,0,0,97,0,0,0,0,0.03,0,0,0.97
+sitar,11,200,5,SITAR,SITAR,rmw2,100,97,0.030000000000000027,TRUE,0,0,0,0,3,0,0,97,0,0,0,0,0.03,0,0,0.97
+sitar,11,200,5,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,3,0,0,97,0,0,0,0,0.03,0,0,0.97
+sitar,15,300,5,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,15,300,5,SITAR,SITAR,RMISE,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,15,300,5,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,15,300,5,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,15,300,5,SITAR,SITAR,rmw2,100,99,0.010000000000000009,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,15,300,5,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,1,0,0,99,0,0,0,0,0.01,0,0,0.99
+sitar,19,400,5,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,19,400,5,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,19,400,5,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,19,400,5,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,19,400,5,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,19,400,5,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,23,500,5,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,23,500,5,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,23,500,5,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,23,500,5,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,23,500,5,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,23,500,5,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,4,50,10,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,4,50,10,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,4,50,10,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,4,50,10,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,4,50,10,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,4,50,10,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,8,100,10,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,8,100,10,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,8,100,10,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,8,100,10,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,8,100,10,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,8,100,10,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,12,200,10,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,12,200,10,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,12,200,10,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,12,200,10,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,12,200,10,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,12,200,10,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,16,300,10,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,16,300,10,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,16,300,10,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,16,300,10,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,16,300,10,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,16,300,10,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,20,400,10,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,20,400,10,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,20,400,10,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,20,400,10,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,20,400,10,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,20,400,10,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,24,500,10,AdaStruMM,AdaStruMM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,AdaStruMM,AdaStruMM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,AdaStruMM,AdaStruMM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,AdaStruMM,AdaStruMM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,AdaStruMM,AdaStruMM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,FACE,FACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,FACE,FACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,FACE,FACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,FACE,FACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,FACE,FACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,HGAM-GS,HGAM-GS,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,HGAM-GS,HGAM-GS,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,HGAM-GS,HGAM-GS,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,HGAM-GS,HGAM-GS,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,HGAM-GS,HGAM-GS,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Local-GAM,Local-GAM,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Local-GAM,Local-GAM,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Local-GAM,Local-GAM,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Local-GAM,Local-GAM,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Local-GAM,Local-GAM,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Oracle-SITAR,Individual oracle bound,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Oracle-SITAR,Individual oracle bound,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Oracle-SITAR,Individual oracle bound,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Oracle-SITAR,Individual oracle bound,rmw2,100,0,1,FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,Oracle-SITAR,Individual oracle bound,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,PACE,PACE,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,PACE,PACE,ci_width,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,PACE,PACE,coverage,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,PACE,PACE,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,PACE,PACE,time,100,100,0,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sitar,24,500,10,SITAR,SITAR,RMISE,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,24,500,10,SITAR,SITAR,ci_width,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,24,500,10,SITAR,SITAR,coverage,100,0,1,FALSE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,24,500,10,SITAR,SITAR,rmw2,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
+sitar,24,500,10,SITAR,SITAR,time,100,100,0,TRUE,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,1
