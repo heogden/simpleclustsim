@@ -1,0 +1,16 @@
+case,subcase_id,method,seed
+2re,18,bayesFPCA,10006
+2re,18,bayesFPCA,10007
+2re,18,bayesFPCA,10008
+2re,18,bayesFPCA,10009
+2re,18,bayesFPCA,10010
+2re,19,bayesFPCA,10006
+2re,19,bayesFPCA,10007
+2re,19,bayesFPCA,10008
+2re,19,bayesFPCA,10009
+2re,19,bayesFPCA,10010
+2re,22,Local-GAM,10006
+2re,22,Local-GAM,10007
+2re,22,Local-GAM,10008
+2re,22,Local-GAM,10009
+2re,22,Local-GAM,10010

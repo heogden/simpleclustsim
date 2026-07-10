@@ -1,0 +1,4 @@
+fit_cutoff_minutes,n_cells,n_include,n_borderline,n_manual_review,n_exclude_time,n_exclude_resource,n_exclude_unreliable,n_cells_in_cost_estimate,projected_total_hours,projected_total_hours_buffered
+20,486,447,14,0,1,0,24,461,2311.2154944444446,2889.019368055556
+25,486,452,9,0,1,0,24,461,2311.2154944444446,2889.019368055556
+30,486,456,5,0,1,0,24,461,2311.2154944444446,2889.019368055556

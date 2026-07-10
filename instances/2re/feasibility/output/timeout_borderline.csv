@@ -1,0 +1,1 @@
+array_job_id,process_id,file_err,file_out,state,mem_used_gb,mem_limit_gb,elapsed_minutes,time_limit_minutes,err_has_oom_kill,err_has_killed_rscript,err_has_timeout,err_text,out_state_timeout,err_timeout,confirmed_timeout,time_limit_minutes_reported,time_limit_source,sufficient_time_limit,case,subcase_id,method,seed

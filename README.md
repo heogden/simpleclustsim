@@ -56,3 +56,23 @@ methods were run first. The fitted SITAR comparator was added later using
 processed summaries. This reflects the workflow used for the paper. The saved
 summary files in `instances/sitar/analysis/output/` are the results used to
 produce the published figures.
+
+## Additional simulation summaries
+
+The processed CSV summaries used to make the paper figures are included in
+`instances/<case>/analysis/output/`.
+
+The preliminary method comparison described in the Supplement was run using
+`instances/<case>/pilot_methods/simstudy.R`. Processed per-case results are
+included as `instances/<case>/pilot_methods/relative_metric_tab_<case>.csv`.
+The combined CSV summaries used to make the global method choices are included
+in `instances/pilot_run_analysis/output/`.
+
+Processed summaries from the computational feasibility trial are included in
+`instances/<case>/feasibility/output/` and
+`instances/feasibility_analysis/output/`. Final run-matrix and run-status CSV
+files for the full simulation studies are included in
+`instances/<case>/full/output/`.
+
+Raw checkpoint outputs, cluster log files, `.Rda`/`.rds` files and
+machine-specific storage directories are not included.

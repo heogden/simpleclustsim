@@ -1,0 +1,2 @@
+case,n_full_seeds,scheduling_buffer,initial_walltime_minutes,extended_walltime_minutes,mem_gb,pack_by
+sitar,100,1.25,240,480,8,method

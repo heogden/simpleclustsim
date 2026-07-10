@@ -1,0 +1,9 @@
+case,decision,n_cells
+2re,borderline,3
+2re,exclude_time,1
+2re,include,158
+3re,borderline,1
+3re,include,161
+sitar,borderline,1
+sitar,exclude_unreliable,24
+sitar,include,137
