@@ -2,8 +2,7 @@
 
 This repository contains research code and processed simulation
 summaries for the simulation study in the paper
-["Adaptively-Structured Mixed Models for Simple Clustered Data"]
-(https://arxiv.org/abs/2401.11827).
+["Adaptively-Structured Mixed Models for Simple Clustered Data"](https://arxiv.org/abs/2401.11827).
 
 ## Contents
 
